@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hallyu</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Montserrat&family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-title">
+        <h3>세계 속 한류는 지금?</h3>
+      </div>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">아랍에미레이트(UAE)</a></li>
+        <li><a href="saudi.html">사우디아라비아</a></li>
+        <li><a href="egypt.html">이집트</a></li>
+      </ul>
+
+      <ul class="nav-play">
+        <li>
+          <button onclick="music()" class="play-btn">
+            <img src="playIcon.png" />
+          </button>
+          <button class="stop-btn">
+            <img src="stopIcon.png" />
+          </button>
+        </li>
+      </ul>
+
+      <a href="#" class="nav-toggle">
+        <img src="menuIcon.png" />
+      </a>
+    </nav>
+
+    <audio id="audioContainer">
+      <source src="Love Myself.mp3" />
+      Your browser does not support the audio format.
+    </audio>
+
+    <div class="container">
+      <div class="UAE-title">
+        <h1>- 아랍에미레이트(UAE) -</h1>
+      </div>
+      <div class="UAE-title subtitle">
+        <h2>UAE에서도 열린 <오징어 게임> 체험 행사</h2>
+      </div>
+
+      <div class="info">
+        <p>
+          넷플릭스 오리지널 시리즈 <오징어 게임>의 전 세계적인 열풍으로 드라마에
+          등장한 각종 놀이들이 널리 퍼져나가고 있습니다. 아랍에미리트(UAE)
+          아부다비에서도 <오징어 게임>에 나오는 놀이를 직접 체험할 수 있는
+          행사가 열렸는데요. 해당 행사는 코로나 19 방역을 위 해 참여 인원을
+          30명으로 제한했음에도 총 350명에 가까운 시민이 사전 참가신청을 했다고
+          합니다. 개최 전부터 언론의 큰 관심을 받은 해당 행사는 UAE 유력 매체인
+          <더 내셔널(The National)>에서도 기사가 실렸습니다. 해당 기사는 UAE에서
+          가장 많이 읽은 기사 5위 안에 오르기도 했다는데요.
+        </p>
+        <p>
+          UAE판 <오징어 게임> 체험 행사에서는 첫 번째로 드라마와 동일하게
+          '무궁화 꽃이 피었습 니다.' 놀이가 진행되었고, 행사 참여자들은 이어서
+          '달고나 뽑기', '구슬놀이'와 '딱지치기'까 지 드라마에서 볼 수 있었던
+          한국 전통 놀이들을 충실하게 체험할 수 있는 시간을 가졌습니다.
+        </p>
+      </div>
+
+      <div class="info-video">
+        <a href="https://www.youtube.com/watch?v=ZCdE8p5MWts&t=1s">
+          <img src="video-pic.png" class="video-img" />
+        </a>
+        <span>영상을 보려면 사진을 클릭하세요!</span>
+      </div>
+
+      <div class="info">
+        <p>
+          아랍에미리트의 경우 한국문화콘텐츠 소비 비중이 상당히 높은 나라로,
+          한류의 영향력이 큰 아시아 국가들 만큼이나 한국문화콘텐츠를 많이
+          소비하고 있는 국가입니다. 그만큼 한국의 문화에 대한 관심도 높고 한류
+          콘텐츠에 대한 유료 이용 의향도 점차 증가하고 있는데요. 지난해 한국-UAE
+          상호문화 교류의 해를 기념해 3월 31일부터 4월 4일까지 비대면으로 진
+          행된 "한국-아랍에미리트 축제(KOREA-UAE FESTIVAL)"에서는 한류팬
+          273만명이 모이기도 했습니다. 앞으로도 아랍에미리트 국민들의 한국 문화
+          사랑은 계속될 것으로 보여집니다.
+        </p>
+      </div>
+
+      <div class="data-div">
+        <img src="data1.png" class="data-img" />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="navbar.js"></script>
+  </body>
+</html>
